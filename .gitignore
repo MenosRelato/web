@@ -21,6 +21,7 @@ TestResults
 *.zip
 __azurite*.*
 __*__
+local.settings.json
 
 .nuget
 *.lock.json

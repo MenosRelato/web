@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.prompt-message {
+    border-radius: var(--bs-border-radius);
+}
+
+    .prompt-message .prompt-editable {
+        border: 0 none #FFF;
+        overflow: hidden;
+        outline: none;
+        width: 100%;
+        height: 100%;
+        resize: none;
+    }
+
+    .prompt-message .prompt-readonly {
+        width: 100%
+    }

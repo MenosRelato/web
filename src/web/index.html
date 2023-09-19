@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@MenosRelato</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/">@MenosRelato</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <h1>Generador de pegatina QR</h1>
+
+            <form>
+                <div class="mb-3">
+                    <label for="text" class="form-label">Texto:</label>
+                    <div class="form-control rounded prompt-message shadow d-flex flex-row focus-ring">
+                        <textarea rows="1"
+                                  cols="100"
+                                  id="text"
+                                  class="prompt-editable editable pt-1 ms-1"
+                                  oninput="growText(this)"
+                                  placeholder="Mensaje a mostrar al navegar el QR"></textarea>
+                    </div>
+                </div>
+                <p class="fs-6 fw-lighter fst-italic">
+                    Se puede utilizar markdown para formatear el mensaje. [Enter] para nueva linea.
+                </p>
+                <button type="submit" class="btn btn-primary">Crear</button>
+            </form>
+                        
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container" align="center">
+            &copy; 2023 - @MenosRelato
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+</body>
+</html>

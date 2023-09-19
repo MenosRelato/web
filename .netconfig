@@ -7,8 +7,8 @@
 	weak
 [file ".gitignore"]
 	url = https://github.com/menosrelato/template/blob/main/.gitignore
-	sha = 701b9468774a8124ae07cf9a93d68b02cc71b8ff
-	etag = cb12a3e3e89a15acfb27d3eaace5135a6ec3d3fbd1242e4a8e8f9fa646200e5c
+	sha = d02d91b9a1bb3adb61c5713f53f7f4b85253a2d9
+	etag = 0c07f3321a58ab40304d0ab8c4d4ec09bc811f01d00482311d6e737a1b8f9c13
 	weak
 [file "license.txt"]
 	url = https://github.com/menosrelato/template/blob/main/license.txt
@@ -24,4 +24,14 @@
 	url = https://github.com/menosrelato/template/blob/main/src/Directory.Build.targets
 	sha = 701b9468774a8124ae07cf9a93d68b02cc71b8ff
 	etag = df4417fbbd129594e2afed8e6d6c69229e41b55c6b4986e78bd3fd5e68f24a99
+	weak
+[file "src/MenosRelato/System/Base62.cs"]
+	url = https://github.com/devlooped/catbag/blob/main/System/Base62.cs
+	sha = 43712304cdfff2c34ba01197cc2ccc0e16e7af08
+	etag = 045b9e458f11f846ae9a3979b8122c68173405fb5451083d4993f94004e60e76
+	weak
+[file "src/MenosRelato/wwwroot/img/icon.svg"]
+	url = https://github.com/menosrelato/menosrelato/blob/main/icon.svg
+	sha = a886df19404c268b8a001f6a65bbfc03beaffe9f
+	etag = 897aa8894da9880ebf8ea7b466f530ee67e01821d608e96cb4f309fac34d1811
 	weak

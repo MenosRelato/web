@@ -45,6 +45,11 @@
     <PackageReference GeneratePathProperty="true" />
   </ItemDefinitionGroup>
 
+  <ItemGroup Condition="$(MSBuildProjectName.Contains('Tests'))">
+    <Using Include="Xunit"/>
+    <Using Include="Xunit.Abstractions"/>
+  </ItemGroup>
+
   <Import Project="Directory.props" Condition="Exists('Directory.props')"/>
   <Import Project="Directory.props.user" Condition="Exists('Directory.props.user')" />
 </Project>

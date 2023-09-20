@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenosRelato", "src\MenosRelato\MenosRelato.csproj", "{0CABA6A2-EE59-41CF-94C5-E271123314DB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34275756-E6E9-4859-87C9-BD17858BB7BE}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -15,7 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "src\Tests\Tests.csproj", "{ED9D4964-0918-4268-819E-493A32323F47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "src\api\api.csproj", "{0ADA722E-0839-4E4A-9BE0-B3A98208433D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "src\api\api.csproj", "{0ADA722E-0839-4E4A-9BE0-B3A98208433D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{50770BB7-50C9-4D3D-AFBC-FBACA8B5F5D3}"
+	ProjectSection(SolutionItems) = preProject
+		src\web\favicon.ico = src\web\favicon.ico
+		src\web\index.html = src\web\index.html
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0CABA6A2-EE59-41CF-94C5-E271123314DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CABA6A2-EE59-41CF-94C5-E271123314DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CABA6A2-EE59-41CF-94C5-E271123314DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CABA6A2-EE59-41CF-94C5-E271123314DB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED9D4964-0918-4268-819E-493A32323F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED9D4964-0918-4268-819E-493A32323F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED9D4964-0918-4268-819E-493A32323F47}.Release|Any CPU.ActiveCfg = Release|Any CPU

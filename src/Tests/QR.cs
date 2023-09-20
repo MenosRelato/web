@@ -9,7 +9,7 @@ using ZXing.Common;
 
 namespace MenosRelato;
 
-public class QR(ITestOutputHelper output)
+public class QR
 {
     [Fact]
     public void Run()
@@ -26,7 +26,7 @@ public class QR(ITestOutputHelper output)
             }
         };
 
-        var qrmatrix = writer.Encode("https://chota");
+        var qrmatrix = writer.Encode("https://menosrelato.org/qr");
         
         var border = 80;
         var radius = 40;        

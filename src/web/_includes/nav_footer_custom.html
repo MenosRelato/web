@@ -1,0 +1,7 @@
+<footer class="site-footer">
+    {% for network in site.networks %}
+    <a style="margin: 5px" href="{{ network.url }}" title="{{ network.name }}" target="_blank" rel="noopener">
+        <img src="{{ network.svg }}" width="24" height="24" alt="{{ network.name }}" class="d-inline-block align-top">
+    </a>
+    {% endfor %}
+</footer>

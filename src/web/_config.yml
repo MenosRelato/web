@@ -1,0 +1,39 @@
+plugins: 
+  - jekyll-remote-theme
+  
+remote_theme: just-the-docs/just-the-docs@v0.6.1
+exclude: [ 'Gemfile*' ]
+
+# logo: "/assets/img/sponsorlink.png"
+ga_tracking: "G-MHF58SREPL"
+title: Menos Relato
+
+networks:
+  - name: X
+    url: https://x.com/MenosRelato
+    svg: img/x.svg
+  - name: Medium
+    url: https://medium.com/@MenosRelato
+    svg: img/medium.svg
+  - name: YouTube
+    url: https://youtube.com/@MenosRelato
+    svg: img/youtube.svg
+  - name: GitHub
+    url: https://github.com/menosrelato
+    svg: img/github.svg
+
+callouts:
+  warn:
+    color: yellow
+  info:
+    color: blue
+
+compress_html:
+  ignore:
+    envs: all
+    
+kramdown:
+  parse_block_html: true
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true

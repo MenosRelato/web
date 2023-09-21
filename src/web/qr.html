@@ -1,0 +1,25 @@
+---
+title: Generador de QR
+layout: default
+nav_order: 2
+page_toc: false
+---
+<h1>Generador de QR</h1>
+
+<form>
+    <div class="mb-3">
+        <label for="text" class="form-label">Texto:</label>
+        <div class="form-control rounded prompt-message shadow d-flex flex-row focus-ring">
+            <textarea rows="1"
+                        cols="100"
+                        id="text"
+                        class="prompt-editable editable pt-1 ms-1"
+                        oninput="growText(this)"
+                        placeholder="Mensaje a mostrar al navegar el QR"></textarea>
+        </div>
+    </div>
+    <p class="fs-6 fw-lighter fst-italic">
+        Se puede utilizar markdown para formatear el mensaje. [Enter] para nueva linea.
+    </p>
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>

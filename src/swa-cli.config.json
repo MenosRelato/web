@@ -3,6 +3,7 @@
   "configurations": {
     "src": {
       "appLocation": "web",
+      "appBuildCommand": "bundle exec jekyll build",
       "apiLocation": "api",
       "apiLanguage": "dotnet",
       "apiVersion": "6.0",

@@ -20,7 +20,7 @@ networks:
     url: https://youtube.com/@MenosRelato
     svg: img/youtube.svg
   - name: GitHub
-    url: https://github.com/menosrelato
+    url: https://github.com/MenosRelato
     svg: img/github.svg
 
 callouts:

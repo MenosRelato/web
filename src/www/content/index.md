@@ -1,5 +1,10 @@
 ---
-title: Some markdown file
+title: Doctocat
+status: Stable
 ---
 
-<Hero />
+<Note>Importante</Note>
+
+<Note variant="warning">Peor</Note>
+
+<Note variant="danger">En serio!</Note>

@@ -14,7 +14,7 @@ module.exports = {
         resolve: '@primer/gatsby-theme-doctocat',
         options: {
           defaultBranch: 'main',
-          icon: './img/icon.svg',
+          icon: './images/icon.svg',
           repoRootPath: '../..'
         },
       },

@@ -24,7 +24,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           # https://aka.ms/swaworkflowconfig
-          app_location: "src/wwww"
+          app_location: "src/www"
           app_build_command: "npx --yes gatsby build"
           api_location: "src/api"
           output_location: "public"

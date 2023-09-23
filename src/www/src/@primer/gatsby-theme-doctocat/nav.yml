@@ -1,2 +1,6 @@
 - title: Generador de QR
   url: '/qr'
+- title: Conicet
+  children:
+    - title: Historieta
+      url: /conicet/historieta

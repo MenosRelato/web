@@ -2,13 +2,15 @@ module.exports = {
     siteMetadata: {
       title: 'Menos Relato',
       shortName: 'Menos Relato',
+      imageUrl: './images/icon.svg',
       header: {
         title: 'Menos Relato',
         url: 'https://menosrelato.org',
-        logoUrl: 'https://foo.com',
-      },      
-      description: '(Description)',
+        logoUrl: 'https://menosrelato.org',
+      },
+      description: '(Description)'
     },
+    pathPrefix: '/doctocat',
     plugins: [
       {
         resolve: '@primer/gatsby-theme-doctocat',

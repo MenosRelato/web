@@ -1,0 +1,20 @@
+{
+    "name": "menos-relato",
+    "repository": "MenosRelato/web",
+    "version": "1.1.0",
+    "scripts": {
+      "develop": "gatsby develop",
+      "build": "gatsby build",
+      "now-build": "yarn run build"
+    },
+    "dependencies": {
+      "@primer/gatsby-theme-doctocat": "^4.0.0",
+      "gatsby": "^2.32.13",
+      "react": "^16.9.0",
+      "react-dom": "^16.9.0"
+    },
+    "devDependencies": {
+      "@babel/plugin-proposal-logical-assignment-operators": "^7.18.9",
+      "babel-preset-gatsby": "^2.20.0"
+    }
+  }

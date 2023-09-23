@@ -24,10 +24,10 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           # https://aka.ms/swaworkflowconfig
-          app_location: "src/web"
-          app_build_command: "bundle exec jekyll build"
+          app_location: "src/wwww"
+          app_build_command: "npx --yes gatsby build"
           api_location: "src/api"
-          output_location: "_site"
+          output_location: "public"
 
   close_pr:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
